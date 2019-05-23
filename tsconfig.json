@@ -1,0 +1,26 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "rootDir": "src",
+    "outDir": "build",
+    "noUnusedParameters": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": false,
+    "lib": [
+      "esnext",
+      "dom"
+    ]
+  },
+  "include": [
+    "*.tsx",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

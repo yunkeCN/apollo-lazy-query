@@ -8,7 +8,7 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": false,
-    "module": "commonjs",
+    "module": "esnext",
     "target": "es5",
     "sourceMap": false,
     "lib": [
